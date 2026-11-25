@@ -1,0 +1,35 @@
+# Python & virtual environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Large geospatial rasters, archives & QGIS project/sidecar files
+*.tif
+*.tiff
+*.img
+*.zip
+*.tar.gz
+*.qgz
+*.qgs
+*.aux.xml
+*.qmd
+results/Waterways_*.geojson
+src/upper_benue/07_generate_workflow_diagram.py
+results/fig_methodological_workflow.*
+src/upper_benue/results/
+
+# Jupyter & IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS & temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+catboost_info/
